@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #EEEEEE;
 }
 ol, ul {
   list-style: none;
@@ -57,8 +57,8 @@ table {
 }
 
 header {
-  background-color: #6730EC;
-  color: white;
+  background-color: #59569D;
+  color: #EEEEEE;
   padding: 10em 0 2em;
   margin-bottom: 5em;
   text-align: center;
@@ -69,13 +69,13 @@ h1 {
 }
 
 h3 {
-  color: #6730EC;
+  color: #F25292;
   margin: 3em 0 1em;
   font-size: 1.5rem;
 }
 
 h1, h3 {
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Pacifico', Helvetica, Arial, sans-serif;
   font-weight: 800;
   text-align: center;
 }
@@ -89,9 +89,8 @@ form {
 
 label {
   display: block;
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #6730EC;
+  color: #F25292;
   margin: 1.2em 0 .5em;
 }
 
@@ -108,20 +107,21 @@ input, select {
 .btn {
   display: block;
   text-align: center;
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
   cursor: pointer;
   color: #fff;
-  background-color: #6730EC;
+  background-color: #F25292;
   letter-spacing: 1px;
   font-size: 90%;
-  padding: 1em .5em;
+  padding: 1em;
   transition: .5s ease all;
   margin: 1.2em 0 .5em;
+  border: none;
 }
 
 .btn:hover, .btn:active, .btn:focus {
-  background-color: #552cb9;
+  background-color: #EC2F7B;
   transition: .5s ease all;
 }
 
@@ -139,7 +139,6 @@ span {
 }
 
 b {
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-size: 112%;
   color: #6730EC;
@@ -147,6 +146,7 @@ b {
 
 small {
   font-size: .8rem;
+  color: #EC2F7B;
 }
 
 footer {
